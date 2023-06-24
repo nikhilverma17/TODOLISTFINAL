@@ -1,13 +1,24 @@
 {
-  "name": "nodejs-app",
+  "name": "todolist_v1",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "index.js",
-  "author": "alphasec",
-  "license": "MIT",
-   "dependencies": {
-  },
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app.js",
+    "dev" : "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.21",
+    "mongod": "^2.0.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.0",
+    "nodemon": "^2.0.22"
   }
 }
