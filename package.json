@@ -17,7 +17,7 @@
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.21",
     "mongod": "^2.0.0",
-    "mongodb": "^5.6.0",
+    "mongodb": "^6.0.0",
     "mongoose": "^7.3.0",
     "nodemon": "^2.0.22"
   }
